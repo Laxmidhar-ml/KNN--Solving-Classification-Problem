@@ -541,6 +541,6 @@ elif (UserOption == 4):
     plt.ylabel('Accuracy Score (%)', color='Blue', fontsize='large', fontweight='bold')
     plt.title('Plot between accuracy and Neighbors for KNN classifier', color='Red', fontsize='large', fontweight='bold')
     plt.grid(True)
-    plt.savefig(r"C:\Users\radyadav.ORADEV\.spyder-py3\performance-test.png")
+    plt.savefig(r"C:\Users\.spyder-py3\performance-test.png")
     plt.show()
 
