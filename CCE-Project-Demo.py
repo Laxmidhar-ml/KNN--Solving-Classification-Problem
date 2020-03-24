@@ -3,7 +3,7 @@
 Created on Thu Nov 22 06:28:58 2018
 CCE-Classification-Project
 
-@author: Radheshyam Yadav
+@author: Laxmidhar 
 """
 
 # ============================== loading libraries ===========================================
@@ -93,10 +93,10 @@ if(userSeedValue > 9999 or userSeedValue < 0):
 ''' 
 # loading training data. Use csv file absolute path on your computer
 # Full Dataset
-#df = pd.read_csv(r"C:\Users\radyadav.ORADEV\Desktop\pima-indians-diabetes.orig.csv")
+#df = pd.read_csv(r"C:\Users\Desktop\pima-indians-diabetes.orig.csv")
 
 # Purned data set
-df = pd.read_csv(r"C:\Users\radyadav.ORADEV\Desktop\pima-indians-diabetes.csv")
+df = pd.read_csv(r"C:\Users\Desktop\pima-indians-diabetes.csv")
 
 print(df.head())
 print(df.tail())
